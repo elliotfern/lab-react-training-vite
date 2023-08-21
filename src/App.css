@@ -4,7 +4,8 @@
 
 .App {
   display: inline-block;
-  width: 800px;
+  width: 1200px;
+  margin-bottom: 100px;
 }
 
 .card {
@@ -62,4 +63,32 @@
 
 .BoxColor p {
   font-size: 2em;
+}
+
+.contenedorCredit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.creditcard {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.creditcard:last-child {
+  margin-right: 0;
+}
+
+.creditNumber {
+  text-align: center;
+  font-size: 1.5em;
 }
